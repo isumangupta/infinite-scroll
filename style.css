@@ -8,7 +8,7 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: 'Lobster Two', sans-serif;
-    background-color: whitesmoke;
+    background-color: lightgray;
 }
 
 h1 {
@@ -18,8 +18,8 @@ h1 {
     font-size: 40px;
 }
 
-/* Loader */
-.loader {
+/* Page Loader */
+.page-loader {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -28,7 +28,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-.loader img {
+.page-loader img {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -43,6 +43,41 @@ h1 {
 .image-container img {
     width: 100%;
     margin-top: 10px;
+}
+
+/* Image Loader */
+.image-loader {
+    margin-top: 5%;
+}
+
+.image-loader img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    /* top: 90%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Error Page */
+.service-error {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: lightgray;
+    padding-top: 15%;
+    font-family: sans-serif;
+}
+
+.service-error h1 {
+    font-size: 50px;
+}
+
+.service-error p {
+    text-align: center;
+    font-size: 30px;
 }
 
 /* Media Query: Large Smartphone */

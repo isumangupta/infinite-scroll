@@ -4,20 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infinite Scroll</title>
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=suman-gupta.github.io">
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=codepen.io">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Title -->
     <h1>Infinite Scroll</h1>
 
-    <!-- Loader -->
-    <div class="loader" id="loader">
+    <!-- Page Loader -->
+    <div class="page-loader" id="page-loader">
         <img src="loader.svg" alt="Loading">
     </div>
     
     <!-- Image Container -->
     <div class="image-container" id="image-container"></div>
+
+    <!-- Image Loader -->
+    <div class="image-loader" id="image-loader">
+        <img src="loader.svg" alt="Loading">
+    </div>
+
+    <!-- Service Error -->
+    <div class="service-error" id="service-error" hidden>
+        <h1>Error!</h1>
+        <p> Server request exceeded 50 requests per hour. Service will resume in an hour.</p>
+    </div>
 
     <!-- Script -->
     <script src="script.js"></script>
