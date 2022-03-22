@@ -7,4 +7,4 @@ Learning:
 3. Few handy CSS Tricks
 4. How to integrate 3rd-party API's to your project
 
-You will find the working project here [DEMO](https://suman-gupta.github.io/infinite-scroll).
+You will find the working project here [DEMO](https://isumangupta.github.io/infinite-scroll/).
